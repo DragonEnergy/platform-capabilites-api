@@ -1,0 +1,21 @@
+{
+    "headers": [
+        { "text" : "Name", "value" : "name" },
+        { "text" : "Type", "value" : "type" },
+        { "text" : "Google", "value" : "google" },
+        { "text" : "Facebook", "value" : "facebook" },
+        { "text" : "Microsoft", "value" : "microsoft" },
+        { "text" : "GTM", "value" : "gtm" },
+        { "text" : "FTP", "value" : "ftp" }
+    ],
+    "platforms": [
+        { "platformid" : 1, "typeid" : 1, "text" : "Shopify" ,"type" : "eCommerce", "google" : "Yes", "facebook" : "Yes", "microsoft" : "Yes", "gtm" : "Yes", "ftp" : "Yes"},
+        { "platformid" : 2, "typeid" : 1, "text" : "WooCommerce" ,"type" : "eCommerce", "google" : "Yes", "facebook" : "Yes", "microsoft" : "Yes", "gtm" : "Yes", "ftp" : "Yes"},
+        { "platformid" : 3, "typeid" : 1, "text" : "Magento" ,"type" : "eCommerce", "google" : "Yes", "facebook" : "Yes", "microsoft" : "Yes", "gtm" : "Yes", "ftp" : "Yes"},
+        { "platformid" : 4, "typeid" : 1, "text" : "Wix" ,"type" : "eCommerce", "google" : "Yes", "facebook" : "Yes", "microsoft" : "Yes", "gtm" : "Yes", "ftp" : "Yes"},
+        { "platformid" : 5, "typeid" : 2, "text" : "Resova" ,"type" : "Booking", "google" : "Yes", "facebook" : "Yes", "microsoft" : "Yes", "gtm" : "Yes", "ftp" : "Yes"},
+        { "platformid" : 6, "typeid" : 2, "text" : "Fair Harbour" ,"type" : "Booking", "google" : "Yes", "facebook" : "Yes", "microsoft" : "Yes", "gtm" : "Yes", "ftp" : "Yes"}
+
+    ]
+
+}

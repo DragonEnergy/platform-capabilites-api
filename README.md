@@ -15,10 +15,10 @@ Need to know content and key structure be we continue to proceed added more func
 All Data is sourced from DATA directory. 
 .json is imported and parsed and appended on the endpoint URL
 
-current routes home /api
-/platforms --lists all platforms
-/ecommerce --lists ecommerce platforms only
-/booking --lists booking platforms only
-/types --lists type of platforms
+current routes: api is nested in http://localhost:3000/api/...
+1. /platforms --lists all platforms
+2. /ecommerce --lists ecommerce platforms only
+3. /booking --lists booking platforms only
+4. /types --lists type of platforms
 
 Using Insomnia REST client

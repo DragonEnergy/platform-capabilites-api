@@ -1,13 +1,9 @@
 // Bring in our dependencies
-const app = require('express')();
-const routes = require('./routes');
-
-var port = process.env.PORT || 8080;
+const express = require('express')
+const routes = require('./routes')
+const PORT = process.env.PORT || 5000
 
 //  Connect all our routes to our application
-app.use('/api', routes);
-
-// Turn on that server!
-app.listen(port, () => {
-  console.log('App running on http://localhost:' + port);
-});
+express()
+  .use('/api', routes)
+  .listen(PORT, () => console.log(`Listening on ${ PORT }`))
